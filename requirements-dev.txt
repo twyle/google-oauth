@@ -1,0 +1,11 @@
+black
+commitizen
+flake8
+isort
+pre-commit
+recommonmark
+setuptools
+sphinx
+sphinx_rtd_theme
+twine
+wheel
