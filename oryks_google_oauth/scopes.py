@@ -15,3 +15,10 @@ class GoogleCalendarScopes(Enum):
     calendar_settings_readonly = (
         'https://www.googleapis.com/auth/calendar.settings.readonly'
     )
+
+
+class GoogleDriveScopes(Enum):
+    metadata = 'https://www.googleapis.com/auth/drive.metadata'
+    files = 'https://www.googleapis.com/auth/file'
+    drive = 'https://www.googleapis.com/auth/drive'
+    activity = 'https://www.googleapis.com/auth/drive.activity'

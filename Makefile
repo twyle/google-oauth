@@ -34,9 +34,9 @@ bump-tag:
 # build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert|bump
 
 lint:
-	@black auth/
-	@isort auth/
-	@flake8 auth/
+	@black oryks_google_oauth/
+	@isort oryks_google_oauth/
+	@flake8 oryks_google_oauth/
 
 install-oauth:
 	pip uninstall /home/lyle/libraries/google-oauth/dist/oryks_google_oauth-0.0.2-py3-none-any.whl
