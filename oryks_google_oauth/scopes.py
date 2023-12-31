@@ -19,6 +19,6 @@ class GoogleCalendarScopes(Enum):
 
 class GoogleDriveScopes(Enum):
     metadata = 'https://www.googleapis.com/auth/drive.metadata'
-    files = 'https://www.googleapis.com/auth/file'
+    files = 'https://www.googleapis.com/auth/drive.file'
     drive = 'https://www.googleapis.com/auth/drive'
     activity = 'https://www.googleapis.com/auth/drive.activity'
