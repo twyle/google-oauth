@@ -1,3 +1,9 @@
+## v0.1.0 (2023-12-31)
+
+### Feat
+
+- adds the scopes fro the drive api.
+
 ## v0.0.2 (2023-11-16)
 
 ### Fix
